@@ -70,7 +70,7 @@ public class Main {
                 System.out.print("Rock, Paper, Scissors, Shoot!  Scissors Cuts Paper! Player 2 wins...");
             }
             do {
-                System.out.print("Play Again? Y/N");
+                System.out.print("Play Again? Y/N ");
                 if (in.hasNext()) {
                     choice = in.next();
                     if (choice.equals("Y") || choice.equals("y")) {
